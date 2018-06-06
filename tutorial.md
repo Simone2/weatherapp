@@ -33,26 +33,41 @@
 
   # Then open a terminal or command prompt window inside of the main src directory then run this code below
    
-   ```sh
-  npm install
-  electron-packager . --icon assets/icon.png
-   ```
+```sh
+npm install
+electron-packager . --icon assets/icon.png
+```
    
   # In the case that you don't have electron-packager installed, run 
   
-    ```sh
-    # for use in npm scripts
-    npm install electron-packager --save-dev
+```sh
+# for use in npm scripts
+npm install electron-packager --save-dev
 
-    # for use from cli
-    npm install electron-packager -g
-    ```
+# for use from cli
+npm install electron-packager -g
+```
+
+<p align="center"> <img src="https://i.gyazo.com/e740cff94de926a20c11b96a3a09c21b.gif"></p>
 
 8. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
-## I love this app!
-Happy to hear that :)
-*If You want to help me, you can support me on [**PayPal**](https://www.paypal.me/kvpek)*
+<p align="center"> <img src="https://i.gyazo.com/fa687ed21a15610676a81552eb510f89.gif"></p>
+
+
+## Extras!
+
+If you were ever wondering on how to change from Metric to Imperial just modify line 35 in **index.html** and line 75 in **main.js** from  
+
+```
+let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+```
+    
+ to 
+ 
+ ```
+ let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
+ ```
 
 #
 *thanks for reading*
