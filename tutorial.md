@@ -43,6 +43,7 @@
   # Then open a terminal or command prompt window inside of the main src directory then run this code below
    
    ```sh
+  npm install
   electron-packager . --icon assets/icon.png
    ```
 
