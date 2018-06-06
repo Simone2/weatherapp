@@ -3,10 +3,29 @@
 
 **First Off** We need to work on getting the API key for the weather application, by clicking on [**this**](https://openweathermap.org/api), it will take us to the correct area to get our API key.
 
-![weatherapp prev](https://i.imgur.com/BFkue02.png)
-## How to run it?
-1. **First of all,** you have to supply your OpenWeatherMap api key *(you can find it [here](https://openweathermap.org/api))* and your city name to *index.html (lines 33, 34)* and *main.js (lines 73, 74)* - *the tutorial is [here](https://github.com/whoisroyal/weatherapp/blob/master/tutorial.md)*
- 2. Then, run `npm install` in the project directory. 
+![weatherapp prev](https://i.gyazo.com/938c0a09ae84b0ead03421f5bcc57b9c.png)
+
+## How do we get the API key?
+1. Click on the free plan in order to generate an api key
+
+![weatherapp prev](https://i.gyazo.com/2d6337135184c27b8e1c6593e9629c0d.png)
+
+2. It will give us an option to create the account
+
+<p align="center"> <img src="https://i.gyazo.com/3c0c467acff2050e8fc709ab9ef20639.gif"></p>
+
+3. Then we generate API key for the application
+
+<p align="center"> <img src="https://i.gyazo.com/3ea8387fd2812ae2f401df4ae5fcf15d.gif"></p>
+
+2. **Now the fun stuff begins** with our OpenWeatherMap api key from teh steps above we will go through and modify the files as needed. 
+
+4. 
+
+
+
+
+
 2. Now, package **Weather** using `electron-packager . --icon assets/icon.png`
 3. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
