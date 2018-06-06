@@ -30,6 +30,14 @@
 <p align="center"> <img src="https://i.gyazo.com/5c6d33dd6f1406d4089bebcc611d4665.gif"></p>
 
 7. Now, package **Weather** using Electron Packager
+
+  # Then open a terminal or command prompt window inside of the main src directory then run this code below
+   
+   ```sh
+  npm install
+  electron-packager . --icon assets/icon.png
+   ```
+   
   # In the case that you don't have electron-packager installed, run 
   
     ```sh
@@ -39,13 +47,6 @@
     # for use from cli
     npm install electron-packager -g
     ```
-    
-  # Then open a terminal or command prompt window inside of the main src directory then run this code below
-   
-   ```sh
-  npm install
-  electron-packager . --icon assets/icon.png
-   ```
 
 8. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
