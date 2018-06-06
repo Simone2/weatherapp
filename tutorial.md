@@ -18,36 +18,40 @@
 
 <p align="center"> <img src="https://i.gyazo.com/3ea8387fd2812ae2f401df4ae5fcf15d.gif"></p>
 
-2. **Now the fun stuff begins** with our OpenWeatherMap api key from teh steps above we will go through and modify the files as needed. 
+4. **Now the fun stuff begins** with our OpenWeatherMap api key from the steps above we will go through and modify the files as needed. 
 
-4. 
+## Download The Repository
+**The trusty ready made package is located [here](https://github.com/whoisroyal/weatherapp/tree/master/built)!**
 
+5. Now, with that package downloaded we will go through and locate the weatherapp-master/src folder; once that folder is located we will want to open the **index.html** and the **main.js** files in your favorite text editor. *In this case we will use atom*
 
+6. We will then need to modify lines, 33 and 34 in **index.html** to reflect our new API key and a location that we want our weather application to query from. We will do the exact steps to **main.js** on lines 73 and 74.
 
+<p align="center"> <img src="https://i.gyazo.com/5c6d33dd6f1406d4089bebcc611d4665.gif"></p>
 
+7. Now, package **Weather** using Electron Packager
+  # In the case that you don't have electron-packager installed, run 
+  
+    ```sh
+    # for use in npm scripts
+    npm install electron-packager --save-dev
 
-2. Now, package **Weather** using `electron-packager . --icon assets/icon.png`
-3. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
+    # for use from cli
+    npm install electron-packager -g
+    ```
+    
+  # Then open a terminal or command prompt window inside of the main src directory then run this code below
+   
+   ```sh
+  electron-packager . --icon assets/icon.png
+   ```
 
-**If You just want to preview it, just download the already built package [here](https://github.com/whoisroyal/weatherapp/tree/master/built)!**
+8. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
-## What can it do?
-Currently not much. **Weather** lives in system tray waiting for you to open it.
-It only displays current temperature, pressure, humidity, min - max temperature and wind speed.
-
-## Key Shortcuts
-**CTRL + R** - *Refresh view*
-
-## Known bugs
-* Weather not updating by itself
-* Hardcoded api key and localization
-
-## Can I fix the app?
-**Sure!** Any bugfix is greatly appreciated!
 ## I love this app!
 Happy to hear that :)
 *If You want to help me, you can support me on [**PayPal**](https://www.paypal.me/kvpek)*
 
 #
-*thanks for reading ;P*
-*~whoisroyal/0-1-0-1*
+*thanks for reading*
+
