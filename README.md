@@ -5,7 +5,8 @@
 
 ![weatherapp prev](https://i.imgur.com/BFkue02.png)
 ## How to run it?
-1. **First of all,** you have to supply your OpenWeatherMap api key *(you can find it [here](https://openweathermap.org/api))* and your city name to *index.html (lines 33, 34)* and *main.js (lines 73, 74)* - *the tutorial is [here](https://github.com/whoisroyal/weatherapp/blob/master/tutorial.md)*
+1. **First of all,** you have to supply your OpenWeatherMap api key *(you can find it [here](https://openweathermap.org/api))* and your city name to *index.html (lines 33, 34)* and *main.js (lines 73, 74)* - *the tutorial is [here](tutorial.md)*
+
  2. Then, run `npm install` in the project directory. 
 2. Now, package **Weather** using `electron-packager . --icon assets/icon.png`
 3. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
