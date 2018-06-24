@@ -57,7 +57,7 @@ npm install electron-packager -g
 
 ## Extras!
 
-# If you were ever wondering on how to change from Metric to Imperial just modify line 35 in **index.html** and line 75 in **main.js** from  
+If you were ever wondering on how to change from Metric to Imperial just modify line 35 in **index.html** and line 75 in **main.js** from  
 
 ```
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
@@ -69,7 +69,7 @@ let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric
  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
  ```
  
- # To change 24 hour format to 12 hour format comment/delete lines 62 - 69 and uncomment lines 71 - 83 in **index.html**
+ To change 24 hour format to 12 hour format comment/delete lines 62 - 69 and uncomment lines 71 - 83 in **index.html**
 
 
 #
