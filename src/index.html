@@ -58,14 +58,29 @@
     });
 
     // Date and Time
+    // 24 hour format
     function startTime() {
-      var today=new Date();
-      var h=today.getHours();
-      var m=today.getMinutes();
+      var date = new Date()
+      var h=date.getHours();
+      var m=date.getMinutes();
       m=checkTime(m);
       document.getElementById('time').innerHTML = h + ":" + m;
       t=setTimeout('startTime()',500) }
      function checkTime(i) { if (i<10) { i="0" + i; } return i}
+    // 12 hour format
+    /* function startTime() {
+      var date = new Date()
+      var h = date.getHours();
+      var m = date.getMinutes();
+      m=checkTime(m);
+      var ampm = h >= 12 ? 'pm' : 'am';
+      h = h % 12;
+      h = h ? h : 12; // the hour '0' should be '12'
+      m = m < 10 ? '0'+m : m;
+      var strTime = h + ':' + m + ' ' + ampm;
+      document.getElementById('time').innerHTML = strTime;
+      t=setTimeout('startTime()',500) }
+      function checkTime(i) { if (i<10) { i="0" + i; } return i } */
     </script>
   </body>
 </html>
