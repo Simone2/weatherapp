@@ -21,7 +21,7 @@
 4. **Now the fun stuff begins** with our OpenWeatherMap api key from the steps above we will go through and modify the files as needed. 
 
 ## Download The Repository
-**The trusty ready made package is located [here](https://github.com/whoisroyal/weatherapp/tree/master/built)!**
+**The trusty ready made package is located [here](https://github.com/0-1-0-1/weatherapp/releases/tag/Stable)!**
 
 5. Now, with that package downloaded we will go through and locate the weatherapp-master/src folder; once that folder is located we will want to open the **index.html** and the **main.js** files in your favorite text editor. *In this case we will use atom*
 
@@ -57,7 +57,7 @@ npm install electron-packager -g
 
 ## Extras!
 
-If you were ever wondering on how to change from Metric to Imperial just modify line 35 in **index.html** and line 75 in **main.js** from  
+### If you were ever wondering on how to change from Metric to Imperial just modify line 35 in **index.html** and line 75 in **main.js** from  
 
 ```
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
@@ -69,7 +69,7 @@ let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric
  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
  ```
  
- To change 24 hour format to 12 hour format comment/delete lines 62 - 69 and uncomment lines 71 - 83 in **index.html**
+ ### To change 24 hour format to 12 hour format comment/delete lines 62 - 69 and uncomment lines 71 - 83 in **index.html**
 
 
 #
