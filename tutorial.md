@@ -68,6 +68,9 @@ let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric
  ```
  let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
  ```
+ 
+ To change 24 hour format to 12 hour format comment/delete lines 62 - 69 and uncomment lines 71 - 83 in **index.html**
+
 
 #
 *thanks for reading*
