@@ -25,9 +25,7 @@
 
 5. Now, with that package downloaded we will go through and locate the weatherapp-master/src folder; once that folder is located we will want to open the **index.html** and the **main.js** files in your favorite text editor. *In this case we will use atom*
 
-6. We will then need to modify lines, 33 and 34 in **index.html** to reflect our new API key and a location that we want our weather application to query from. We will do the exact steps to **main.js** on lines 73 and 74.
-
-<p align="center"> <img src="https://i.gyazo.com/5c6d33dd6f1406d4089bebcc611d4665.gif"></p>
+6. We will then need to make a copy of the `.env.example` file and simply call it `.env`. In the new `.env` file, you will see the lines to add the data.
 
 7. Now, package **Weather** using Electron Packager
 
@@ -35,20 +33,8 @@
    
 ```sh
 npm install
-electron-packager . --icon assets/icon.png
+npm run package
 ```
-   
-  # In the case that you don't have electron-packager installed, run 
-  
-```sh
-# for use in npm scripts
-npm install electron-packager --save-dev
-
-# for use from cli
-npm install electron-packager -g
-```
-
-<p align="center"> <img src="https://i.gyazo.com/e740cff94de926a20c11b96a3a09c21b.gif"></p>
 
 8. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
@@ -74,4 +60,3 @@ let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric
 
 #
 *thanks for reading*
-
