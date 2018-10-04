@@ -26,7 +26,7 @@ It only displays current temperature, pressure, humidity, min - max temperature 
 * Hardcoded api key and localization
 
 ## Can I fix the app?
-**Sure!** Any bugfix is greatly appreciated!
+**Sure!** Any bugfix is greatly appreciated!  
 **Big thanks to [@ColinMcNeil](https://github.com/ColinMcNeil) and [@trujamal](https://github.com/trujamal) for their pulls and fixes!**
 ## I love this app!
 Happy to hear that :)
