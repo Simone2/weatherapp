@@ -3,6 +3,7 @@ const electron = require('electron')
 const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
+require('dotenv').config()
 
 const path = require('path')
 const url = require('url')
@@ -70,18 +71,19 @@ mb.on('ready', function ready () {
   mb.setOption('preloadWindow', 'true');
 
   const request = require('request')
-  let apiKey = 'your api key';
-  let city = 'your city';
+  let apiKey = process.env.api;
+  let city = process.env.city;
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
 
   request(url, function (err, response, body) {
-    if(err){ console.log('! error:', error);
-    } else {
+    if (err) throw new Error(err)
+
     let weather = JSON.parse(body)
+    if (weather.code !== 200) throw new Error(weather.message)
+    
     let temp = `${weather.main.temp}`;
     let temp2 = temp.substring(0, 2);
     mb.tray.setToolTip(temp2 + `° in ${weather.name}`)
-    }
   });
 
   const contextMenu = Menu.buildFromTemplate ([
