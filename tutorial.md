@@ -23,11 +23,9 @@
 ## Download The Repository
 **The trusty ready made package is located [here](https://github.com/0-1-0-1/weatherapp/releases/tag/Stable)!**
 
-5. Now, with that package downloaded we will go through and locate the weatherapp-master/src folder; once that folder is located we will want to open the **index.html** and the **main.js** files in your favorite text editor. *In this case we will use atom*
+5. We will then need to make a copy of the `.env.example` file and simply call it `.env`. In the new `.env` file, you will see the lines to add the data.
 
-6. We will then need to make a copy of the `.env.example` file and simply call it `.env`. In the new `.env` file, you will see the lines to add the data.
-
-7. Now, package **Weather** using Electron Packager
+6. Now, package **Weather** using Electron Packager
 
   # Then open a terminal or command prompt window inside of the main src directory then run this code below
    
@@ -36,7 +34,7 @@ npm install
 npm run package
 ```
 
-8. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
+7. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
 <p align="center"> <img src="https://i.gyazo.com/fa687ed21a15610676a81552eb510f89.gif"></p>
 
