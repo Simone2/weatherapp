@@ -12,7 +12,7 @@ Then, copy `.env.example` and rename it to `.env`. You can put your key and city
 2. Now, package **Weather** using `npm run package`
 3. Run the *Weather.exe* or, if You are on Mac, *Weather.app*
 
-**If You just want to preview it, just download the already built package [here](https://github.com/0-1-0-1/weatherapp/releases)!**
+**If You just want to preview it, just download the already built package [here](https://github.com/rrroyal/weatherapp/releases)!**
 
 ## What can it do?
 Currently not much. **Weather** lives in system tray waiting for you to open it.
@@ -33,4 +33,4 @@ Happy to hear that :)
 
 #
 *thanks for reading ;P*  
-*~0-1-0-1*
+*~royal*
