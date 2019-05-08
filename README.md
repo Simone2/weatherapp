@@ -1,12 +1,12 @@
 # Weather.app - also known as *Weather.exe*
 ***Ok, but what is it?***
 
-**Weather** started as a little side project of mine. It's an app built in  [**Electron**](https://electronjs.org/), powered by  [**OpenWeatherMap**](https://openweathermap.org/).
+**Weather** started as a little side project of mine. It's an app built using [**Electron**](https://electronjs.org/), powered by  [**OpenWeatherMap**](https://openweathermap.org/).
 
 ![weatherapp prev](https://i.imgur.com/BFkue02.png)
 ## How to run it?
 1. **First of all,** you have to supply your OpenWeatherMap api key *(you can find it [here](https://openweathermap.org/api))*.
-Then, copy `.env.example` and rename it to `.env`. You can put your key and city name in this file.- *the tutorial is [here](tutorial.md)*
+Then, copy `.env.example` and rename it to `.env`. You can put your key and city name in this file - *the tutorial is [here](tutorial.md)*.
 
  2. Then, run `npm install` in the project directory. 
 2. Now, package **Weather** using `npm run package`
