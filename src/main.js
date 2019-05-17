@@ -79,7 +79,7 @@ mb.on('ready', function ready () {
     if (err) throw new Error(err)
 
     let weather = JSON.parse(body)
-    if (weather.code !== 200) throw new Error(weather.message)
+    if (weather.cod !== 200) throw new Error(weather.message)
     
     let temp = `${weather.main.temp}`;
     let temp2 = temp.substring(0, 2);
